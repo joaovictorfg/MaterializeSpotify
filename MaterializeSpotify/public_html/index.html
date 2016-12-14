@@ -1,0 +1,65 @@
+<!-- * Created by PhpStorm.-->
+<!-- * User: Márcio Lucas-->
+<!-- * E-mail: marciioluucas@gmail.com-->
+<!-- * Date: 22/11/2016-->
+<!-- * Time: 13:25-->
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#424242">
+    <link rel="icon" type="image/png" href="http://www.freeiconspng.com/uploads/spotify-icon-18.png"/>
+    <title>Spotify com materialize</title>
+</head>
+<body>
+    <header>
+        <nav class="grey darken-3">
+            <div class="nav-wrapper container">
+                <img class="brand-logo" src="imgs/Spotify-logo.png" alt="Logo do Spotify" style="width: 160px; margin-top: 5px;">
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="parallax-container">
+            <div class="parallax">
+                <img src="imgs/image-parallax.jpg" alt="Fundo background parallax"> 
+            </div>
+            <div class="center">
+                <br><br>
+                <h1 class="header center green-text">Spotify Album Search</h1>
+                <div class="row">
+                    <h5 class="col s12 light">Vamos lá! Procure algum album que queira ouvir</h5>
+                </div>
+                <div class="row col s12">
+                    <div class="input-field col s12 m12 l6 offset-l3">
+                        <input type="text" class="validate" autocomplete="off" onkeyup="jQueryGet()" id="campo"> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="container">
+            <ul class="collection" id="listaAlbums"> 
+            </ul>
+        </section>
+    </main>
+<!--HEADER COMEÇO-->
+<!--TODO: HEADER COM INPUT-->
+<!--HEADER FIM-->
+
+<!--ALBUM LIST COMEÇO-->
+<!--TODO: ALBUM LIST -->
+<!--ALBUM LIST FIM-->
+
+<!--RODAPE COMEÇO-->
+<!--TODO: RODAPE-->
+<!--RODAPE FIM-->
+<link rel="stylesheet" href="materialize/css/materialize.min.css">
+<script src="materialize/js/jquery-3.1.1.min.js"></script>
+<script src="materialize/js/materialize.min.js"></script>
+<script src="script.js"></script>
+</body>
+</html>
